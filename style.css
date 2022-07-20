@@ -1,12 +1,23 @@
 
-/* Common CSS Style */
+/*======================= Common CSS Style  ===================== */
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+/*============================= Font  ===========================*/
 
-/* Top Banner CSS Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #F3F1FF;
+  
+}
+
+
+/*======================= Top Banner CSS Style  ================= */
+
+
 .top-banner{
   background-color: black;
   display: flex;
@@ -48,6 +59,11 @@
   padding-top: 20px;
 
 }
+.top-banner-text span{
+  padding-left: 20px;
+  
+}
+
 .top-banner-player-photo{
   width: 50%;
   
@@ -62,7 +78,7 @@
 }
 
 
-/* Middle Section Blog part */
+/* ============= Middle Section Blog part  =================*/
 
 .middle-part{
   display: flex;
@@ -137,17 +153,21 @@
 }
 
 .video-length-comment{
-  
-  padding: 5px 10px 15px;
-  
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  padding-bottom: 10px;
 }
 
 
-/* Footer Section */
+/* ============================ Footer Section ======================= */
 
 footer{
-  background-color: rgb(243, 143, 143);
+  
+  background-color: black;
   height: 400px;
+  
+  
 }
 
 .gool-section{
@@ -164,6 +184,14 @@ footer{
     
 }
 
+.footer-divider {
+ border: none;
+ height: .06px;
+ background: white;
+
+ 
+}
+
 .nav-footer-menu {
   display: flex;
   justify-content: center;
@@ -173,5 +201,19 @@ footer{
 .nav-footer-menu a{
   text-decoration: none;
   font-size: 20px;
-  
+  padding-left: 30px;
+  color: white;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.social-icon i{
+  padding-left: 20px;
+  color: rgb(19, 225, 225);
 }
