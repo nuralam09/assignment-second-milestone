@@ -1,0 +1,179 @@
+
+/* Common CSS Style */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Top Banner CSS Style */
+.top-banner{
+  background-color: black;
+  display: flex;
+  margin: 50px 130px 140px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  
+  
+  }
+
+.top-banner-text{
+  width: 50%;
+  padding-left:50px;
+  
+
+}
+.top-banner-text h1 {
+  font-size: 70px;
+  color: lightcyan
+
+}
+.top-banner-text p {
+  font-size: 15px;
+  color: white;
+
+}
+.top-banner-text a {
+  background: #DD0000;
+  border-radius: 5px;
+  display: inline-block;
+  width: 187px;
+  height: 56px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+
+}
+.top-banner-player-photo{
+  width: 50%;
+  
+  
+}
+
+.top-banner-player-photo img{
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+
+/* Middle Section Blog part */
+
+.middle-part{
+  display: flex;
+  margin: 50px 130px 140px;
+   
+}
+
+.left-side{
+  width: 20%;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  height: 200px;
+  margin-right: 20px;
+}
+.left-side a{
+  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color:white;
+  color: black;
+  border-radius: 5px;
+  margin: 15px ;
+  text-decoration: none;
+  text-align: center;
+  height: 40px;
+  padding-top: 10px;
+  
+}
+
+#left-side-blog-btn{
+  
+  background-color: red;
+
+  
+}
+
+
+.right-side-part{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 15px;
+  
+  border-radius: 10px;
+}
+
+.video-box{
+  border: 1px solid rgb(184, 181, 181);
+  border-radius: 10px;
+ 
+  
+}
+.cover-photo img{
+  width: 100%;
+}
+
+.video-box a{
+  display: inline-block;
+  border: 1px solid black;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: black;
+  
+}
+
+.video-box h3{
+  padding: 10px;
+  font-size: 16px;
+}
+
+.video-length-comment{
+  
+  padding: 5px 10px 15px;
+  
+}
+
+
+/* Footer Section */
+
+footer{
+  background-color: rgb(243, 143, 143);
+  height: 400px;
+}
+
+.gool-section{
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gool-section h4{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+    
+}
+
+.nav-footer-menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.nav-footer-menu a{
+  text-decoration: none;
+  font-size: 20px;
+  color: aquamarine;
+  text-align: center;
+  padding-left: 30px;
+}
