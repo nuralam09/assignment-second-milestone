@@ -217,3 +217,108 @@ footer{
   padding-left: 20px;
   color: rgb(19, 225, 225);
 }
+
+
+/*========= Media Queries CSS ===============*/
+
+ /* Mobiles Devices */
+
+ @media only screen and (max-width:688px){
+  .top-banner-text{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+       
+  }
+  .top-banner h1{
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 20px;
+  }
+
+  .top-banner-text p{
+    font-size: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ .top-banner-text a {
+  background: #DD0000;
+  border-radius: 5px;
+  display: inline-block;
+  width: 139px;
+  height: 36px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.top-banner-player-photo {
+  width: 100%;
+}
+
+
+ .top-banner{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+  margin: 0px;
+   
+
+ }
+ 
+ .top-banner-player-photo img{
+  justify-items: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+.middle-part{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+  margin: 0px;
+   
+}
+
+.left-side {
+  display: flex;
+  background: none;
+  width: 100%;
+  height: 100px;
+
+}
+
+
+.left-side a {
+  display: inline-flexbox;
+  width: 100px;
+  padding-bottom: 20px;
+  display: grid;
+  font-size: 12px;
+  border: 1px solid gray;
+  background-color: bisque;
+  grid-template-columns: repeat(1, 1fr);
+
+}
+
+.right-side-part {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-gap: 15px;
+  border-radius: 10px;
+ 
+}
+
+.nav-footer-menu {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  justify-items: center;
+  align-items: center;
+
+}
+}
+
+Tablet Devices
