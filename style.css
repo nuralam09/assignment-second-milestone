@@ -200,8 +200,8 @@ footer{
 
 .nav-footer-menu a{
   text-decoration: none;
-  font-size: 20px;
-  padding-left: 30px;
+  font-size: 15px;
+  padding-left: 20px;
   color: white;
 }
 
@@ -209,7 +209,7 @@ footer{
   display: flex;
   justify-content: center;
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 20px;
 }
 
@@ -264,6 +264,7 @@ footer{
   grid-template-columns: repeat(1, 1fr);
   width: 100%;
   margin: 0px;
+  background-color: black;
    
 
  }
@@ -321,4 +322,81 @@ footer{
 }
 }
 
-Tablet Devices
+/* Tablet Devices */
+
+@media only screen and (min-width:689px) and (max-width:992px){
+  .top-banner-text{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+       
+  }
+  .top-banner h1{
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 20px;
+  }
+
+  .top-banner-text p{
+    font-size: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+ .top-banner-text a {
+  background: #DD0000;
+  border-radius: 5px;
+  display: inline-block;
+  width: 139px;
+  height: 36px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.top-banner-player-photo {
+  width: 100%;
+}
+
+
+ .top-banner{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 95%;
+  margin: 20px;
+  background-color: black;
+  border-radius: 5px;
+
+ }
+ 
+ .top-banner-player-photo img{
+  justify-items: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-left: 70px;
+}
+.middle-part {
+  display: flex;
+  width: 95%;
+  margin: 20px;
+}
+.left-side {
+  width: 30%;
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.right-side-part {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 15px;
+  border-radius: 10px;
+}
+
+
+}
