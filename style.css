@@ -185,9 +185,10 @@ footer{
 }
 
 .footer-divider {
- border: none;
- height: .06px;
- background: rgb(148, 144, 144);
+  border: none;
+  height: .1px;
+  background: rgb(134, 129, 129);
+ 
 
  
 }
@@ -221,7 +222,7 @@ footer{
 
 /*========= Media Queries CSS ===============*/
 
- /* Mobiles Devices */
+ /* =====================Mobiles Devices================== */
 
  @media only screen and (max-width:688px){
   .top-banner-text{
@@ -326,7 +327,7 @@ footer{
 }
 }
 
-/* Tablet Devices */
+/*======================== Tablet Devices======================== */
 
 @media only screen and (min-width:689px) and (max-width:992px){
   .top-banner-text{
